@@ -1,8 +1,9 @@
 # Coded by Jesse Nebling (@bashexplode)
 
-#### Description
+#### Description:
 A script that sets up hostapd-wpe in an automated matter, then creates two scripts on disk to quickly create an SSL cert and execute hostapd-wpe to perform an Evil Twin attack.
 
+------------------------
 #### hostapd-wpe-installer.sh
 
 Overview:  
@@ -24,7 +25,7 @@ Create cert+ssid-customizer.sh in the hostapd directory
 Give execution rights to the created scripts  
 
 
-
+------------------------
 #### cert+ssid-customizer.sh
 
 Overview:  
@@ -41,7 +42,7 @@ Update configuration files for certificate creation
 Run bootstrap to utilize configuration files and create certificates  
 
 
-
+------------------------
 #### hostapd-wpe.sh
 
 Overview:  
