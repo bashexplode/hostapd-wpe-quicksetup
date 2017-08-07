@@ -2,6 +2,7 @@
 # Before running ensure you have an internet connection
 # hostapd-wpe-installer.sh created by Jesse Nebling (@bashexplode)
 # hostapd-wpe.sh run script and cert+ssid-customizer.sh also by Jesse Nebling
+# License: BSD 3-Clause
 
 # Check for an internet connection
 if ping -q -c 1 -W 1 google.com >/dev/null; then
